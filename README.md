@@ -1,4 +1,4 @@
-# Firt BOT (pt-br)
+# First BOT (pt-br)
 
 ## Sumário
 * [Propósito](#propósito)
