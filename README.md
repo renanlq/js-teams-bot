@@ -21,7 +21,7 @@ npm start
 ```
 2. Iniciar ngrok, na pasta do .exe:  
 ```
-ngrok http [portaAppLocalHost]
+ngrok http [portaAppLocalhost]
 ```
 3. Abrir Bot Framework com configurações para url disponibilizada pelo ngrok.  
 Ex.: https://1234acbd.ngrok.io/api/messages
