@@ -6,9 +6,9 @@
             "type": "endpoint",
             "appId": "",
             "appPassword": "",
-            "endpoint": "https://7d4e0044.ngrok.io/api/messages",
+            "endpoint": "https://1fc68a7b.ngrok.io/api/messages",
             "id": "3cc1bc60-0482-11e9-a78e-45bc819a01ea",
-            "name": "https://7d4e0044.ngrok.io"
+            "name": "ngrok to localhost"
         }
     ],
     "padlock": "",

@@ -14,7 +14,7 @@ dialog.matches(/^search/i, [
     function (session, args, next) {
 
         if(session.message.text.toLowerCase() === 'search') {
-            builder.Prompts.text(session, 'O que você procura?');
+            builder.Prompts.text(session, 'Olá, o que você procura?');
         } else {
             var query = session.message.text.substring(7);
             next({response: query});
@@ -31,13 +31,13 @@ dialog.matches(/^search/i, [
                 var totalCount = profiles.total_count;
 
                 if (totalCount === 0) {
-                    session.endDialog('Desculpe, não existem resultados para sua pesquisa.');
+                    session.endDialog('Desculpe, não encontrei resultados para sua pesquisa.');
                 } else if (totalCount > 10) {
-                    session.endDialog('Muitos resultados, por favor informe algo mais específico.');
+                    session.endDialog('Desculpe, encontrei muitos resultados, poderia me informar algo mais específico?');
                 } else {
                     session.dialogData.property = null;
                     var usernames = profiles.items.map(function (item) { return item.login });
-                    builder.Prompts.choice(session, 'Que usuário gostaria de carregar?\n', usernames);
+                    builder.Prompts.choice(session, 'Me informe o Id do usuário que gostaria de carregar?\n', usernames);
                 }
             });
         }        
