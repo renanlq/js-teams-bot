@@ -10,8 +10,9 @@
 Propósito deste projeto é realizar testes de BOTs com a utilização do BotBuilder e Bot Framework da Microsoft.
 
 ## Dependências
-1.	[Bot Framework](https://github.com/Microsoft/BotFramework-Emulator); e
-2.	[NgRok](https://ngrok.com).
+1. [BotBuilder](https://github.com/Microsoft/BotBuilder)
+2. [Bot Framework](https://github.com/Microsoft/BotFramework-Emulator); e
+3. [NgRok](https://ngrok.com).
 
 ## Dependências
 1. Iniciar app:  
