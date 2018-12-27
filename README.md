@@ -14,7 +14,7 @@ Propósito deste projeto é realizar testes de BOTs com a utilização do BotBui
 2. [Bot Framework](https://github.com/Microsoft/BotFramework-Emulator); e
 3. [NgRok](https://ngrok.com).
 
-## Dependências
+## Executar
 1. Iniciar app:  
 ```
 npm start
